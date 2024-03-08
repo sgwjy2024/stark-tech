@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-shrink: 0; 
+}
+.parent {
+    padding: 6px 0;
+}
+.parentItem {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 3px 18px 0;
+    cursor: pointer;
+    border-left: 3px solid transparent;
+    font-size: 14px;
+}
+.parentActive {
+    border-color: #0386f4;
+}
+.parentActive .parentItemName {
+    color: #0386f4;
+}
+
+.child {
+    padding: 6px 0;
+    border-left: 1px solid #dfdfdf;
+}
+.childItem {
+    padding: 9px 15px;
+    margin-left: -1px;
+    border-left: 3px solid transparent;
+    font-size: 14px;
+    cursor: pointer;
+}
+.childActive {
+    border-color: #0386f4;
+}
+.childActive .parentItemName {
+    color: #0386f4;
+}

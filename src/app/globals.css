@@ -1,0 +1,12 @@
+html,
+body {
+    height: 100%;
+    background: #EDEDED;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
